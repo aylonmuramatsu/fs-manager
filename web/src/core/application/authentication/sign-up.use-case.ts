@@ -38,7 +38,7 @@ export async function signUpUseCase(input: SignUpInput) {
     );
     navigateTo("/clients");
   } finally {
-    updateLoadingUseCase({ state: true });
+    updateLoadingUseCase({ state: false });
   }
 }
 

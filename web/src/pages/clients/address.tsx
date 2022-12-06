@@ -74,9 +74,9 @@ export const Address: React.FC = () => {
     clearFields();
   };
   const handleBlurZipcode = async (e: any) => {
-    updateLoadingUseCase({ state: true });
     if (e.target.value.replace(/[^\d]/g, "").length < 8) return;
     try {
+      updateLoadingUseCase({ state: true });
       const { data } = await buscaCep.get(
         `/${e.target.value.replace(/[^\d]/g, "")}/json`
       );
