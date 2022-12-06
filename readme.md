@@ -102,3 +102,9 @@ ou
 ```
 npm run dev
 ```
+
+Para acessar no navegador:
+```
+http://localhost:5173/
+```
+Este é o caminho padrão, porém se por algum motivo o nodejs mudar a porta ele exibe no terminal.
