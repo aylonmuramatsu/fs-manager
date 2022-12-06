@@ -20,7 +20,7 @@ Front-end:
 
 Back-end:
 
-- NodeJS
+- NodeJS v16+ (versão: 16.13.0)
 - NestJS
 - MySQL
 - Sequelize
